@@ -9,7 +9,7 @@
 }
 #mycarousel .carousel-caption{
     color: red;
-    width: 70%;
+    width: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,9 +26,18 @@
     font-weight: bold;
 }
 #mycarousel .carousel-caption a{
+    display: inline-block;
     color: #fff;
     background: red;
     padding: 15px 25px;
     border-radius: 7px;
     font-weight: bold;
+    text-decoration: none;
+    margin-top: 35px;
+    transition: 0.4s ease;
+}
+#mycarousel .carousel-caption a:hover{
+    border: 2px solid red;
+    color: #fff;
+    background: none;
 }
